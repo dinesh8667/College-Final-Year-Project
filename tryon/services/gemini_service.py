@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 
 # 🔑 Configure client (Make sure this is your active API key)
-client = genai.Client(api_key="AIzaSyDNQvfkXW37G8tm3srdtRxhVCUaCqiVfWM")
+client = genai.Client(api_key="insert_your_gemini_api_key_here")
 
 def load_image(path):
     with open(path, "rb") as f:
